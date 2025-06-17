@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高科技個人網站</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7972161040224521"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- 選單 -->
+    <nav class="navbar">
+        <div class="logo">個人網站</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">主頁</a></li>
+            <li><a href="#about">關於</a></li>
+            <li><a href="#gallery">圖庫</a></li>
+            <li><a href="#contact">聯繫</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- 主內容 -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>歡迎體驗高科技世界</h1>
+            <p>探索可樂、無人機、鋼琴與自行車的未來感</p>
+        </div>
+        <div id="three-canvas"></div>
+    </section>
+
+    <!-- 圖庫展示 -->
+    <section id="gallery" class="gallery">
+        <div class="gallery-item">
+            <img src="images/cola.jpg" alt="可樂">
+            <div class="overlay">可樂</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/drone.jpg" alt="無人機">
+            <div class="overlay">無人機</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/piano.jpg" alt="鋼琴">
+            <div class="overlay">鋼琴</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/bicycle.jpg" alt="自行車">
+            <div class="overlay">自行車</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
